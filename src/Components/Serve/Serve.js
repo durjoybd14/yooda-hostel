@@ -46,6 +46,10 @@ const Serve = () => {
       });
     }
   };
+
+  if (loading) {
+    return <p>Loading...</p>;
+  }
   return (
     <div className="container p-5">
       <div className="row">
