@@ -203,7 +203,7 @@ const Student = () => {
             </div>
           </div>
           <div className="mt-5" style={{ overflowX: "scroll" }}>
-            <table className="table border table-striped table-hover text-center pb-5 mb-5">
+            <table className="table border table-striped table-hover text-center">
               <thead>
                 <tr>
                   <th scope="col"></th>
@@ -301,7 +301,10 @@ const Student = () => {
                 </form>
               </Modal>
             </table>
-            <ReactPaginate
+            
+          </div>
+          <div className="mt-5">
+          <ReactPaginate
               previousLabel={"Previous"}
               nextLabel={"Next"}
               pageCount={pageCount}
